@@ -5,16 +5,16 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=vtnha88/ml-api:v1.0.0
+dockerpath=vtnha88/ml-api
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 
 docker login -u vtnha88
-docker tag ml-api $dockerpath:latest
+docker tag ml-api $dockerpath
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
 # Push image to a docker repository
-docker push $dockerpath:latest
+docker push $dockerpath
