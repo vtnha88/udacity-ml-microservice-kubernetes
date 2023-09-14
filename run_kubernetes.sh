@@ -10,7 +10,7 @@ dockerpath=vtnha88/ml-api
 # Run the Docker Hub container with kubernetes
 kubectl run ml-api \
     --image=$dockerpath \
-    --port=80 --labels app=ml-api
+    --port=8080 --labels app=ml-api
 
 # Step 3:
 # List kubernetes pods
