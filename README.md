@@ -61,6 +61,14 @@ source .devops/bin/activate
 
 * Setup and Configure Docker locally
 * Setup and Configure Kubernetes locally
+* Create a kubernetes secret to store the credentials of the private Docker registry
+  ```bash
+    kubectl create secret docker-registry regcred \
+        --docker-server=https://index.docker.io/v1/ \
+        --docker-username=<DOCKERHUB_USERNAME> \
+        --docker-password=<DOCKERHUB_PASSWORD> \
+        --docker-email=<DOCKER_EMAIL>
+  ```
 * Create Flask app in Container
 * Run via kubectl
 
