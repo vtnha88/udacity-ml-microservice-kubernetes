@@ -1,10 +1,12 @@
-![nhavt project](https://video.udacity-data.com/topher/2019/May/5cda259e_screen-shot-2019-05-13-at-7.19.00-pm/screen-shot-2019-05-13-at-7.19.00-pm.png)
+[![Udacity Machine Learning Status](https://circleci.com/gh/vtnha88/udacity-ml-microservice-kubernetes.svg?style=svg)](https://circleci.com/gh/vtnha88/udacity-ml-microservice-kubernetes)
 
 ## Project Overview
 
-In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
+n this project, you will have the opportunity to apply the knowledge and skills you have gained throughout this course to the practical task of operationalizing a Machine Learning Microservice API.
 
-You are given a pre-trained, `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. You can read more about the data, which was initially taken from Kaggle, on [the data source site](https://www.kaggle.com/c/boston-housing). This project tests your ability to operationalize a Python flask app—in a provided file, `app.py`—that serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
+You will be working with a pre-trained machine learning model developed using the `sklearn` library. This model has been specifically trained to predict housing prices in the city of Boston based on a variety of key features, including factors like the average number of rooms in a home, data related to highway accessibility, teacher-to-pupil ratios, and more. The original dataset used to train this model was sourced from Kaggle, on [the data source site](https://www.kaggle.com/c/boston-housing), a well-known data science platform.
+
+The main objective of this project is to assess your ability to operationalize a Python Flask application, which is provided as the `app.py` file. This Flask app serves as the interface through which predictions about housing prices can be obtained by making API calls. Importantly, the principles demonstrated in this project are applicable to a wide range of pre-trained machine learning models, encompassing not only housing price prediction but also other domains such as image recognition and data labeling. Through this project, you will gain valuable hands-on experience in deploying machine learning models as real-world, accessible services.
 
 ### Project Tasks
 
