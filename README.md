@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-n this project, you will have the opportunity to apply the knowledge and skills you have gained throughout this course to the practical task of operationalizing a Machine Learning Microservice API.
+In this project, you will have the opportunity to apply the knowledge and skills you have gained throughout this course to the practical task of operationalizing a Machine Learning Microservice API.
 
 You will be working with a pre-trained machine learning model developed using the `sklearn` library. This model has been specifically trained to predict housing prices in the city of Boston based on a variety of key features, including factors like the average number of rooms in a home, data related to highway accessibility, teacher-to-pupil ratios, and more. The original dataset used to train this model was sourced from Kaggle, on [the data source site](https://www.kaggle.com/c/boston-housing), a well-known data science platform.
 
