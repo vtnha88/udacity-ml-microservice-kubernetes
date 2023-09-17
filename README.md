@@ -80,8 +80,8 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Run the upload using the upload_docker.sh script: `./upload_docker.sh`
 
 ### Task 5. Configure Kubernetes to Run Locally
-* Install Kubernetes
-* Install Minikube
+* [Install Kubernetes](https://kubernetes.io/docs/tasks/tools/#install-kubectl-on-linux)
+* [Install Minikube](https://minikube.sigs.k8s.io/docs/start/)
 ### Task 6. Deploy with Kubernetes and Save Output Logs
 * Define a dockerpath which will be <docker_hub_username>/<project_name>, this should be the same name as your uploaded repository (the same as in upload_docker.sh)
 * Run the docker container with kubectl; you’ll have to specify the container and the port
