@@ -1,6 +1,18 @@
-Port: 8080
-{
-  "prediction": [
-    20.35373177134412
-  ]
-}
+# INITIAL RUN
+ubuntu@ip-172-31-18-190:~/udacity-ml-microservice-kubernetes$ ./run_kubernetes.sh
+pod/ml-api created
+NAME     READY   STATUS              RESTARTS   AGE
+ml-api   0/1     ContainerCreating   0          1s
+error: unable to forward port because pod is not running. Current status=Pending
+
+# SECOND RUN
+ubuntu@ip-172-31-18-190:~/udacity-ml-microservice-kubernetes$ kubectl logs ml-api
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 338-388-367
